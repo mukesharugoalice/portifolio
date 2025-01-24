@@ -186,6 +186,7 @@ footer {
 
     .nav-links.active {
         display: flex;
+        align-items: center;
     }
 
     #three-artifacts {
