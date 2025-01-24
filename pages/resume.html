@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/resume.css">
+</head>
+<body>
+    <header class="main-header">
+       <nav class="navbar">
+            <div class="logo">My Portfolio</div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="linked.html">LinkedIn</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li><a href="artifacts.html">Artifacts</a></li>               
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="resume-section">
+          <h1>My Resume</h1>
+          <p>Below is my detailed professional resume. You can view it directly or download it for later.</p>
+        
+            <div class="resume-container">
+
+                <iframe src="../files/resume.pdf" frameborder="0"></iframe>
+            </div>
+                    
+            <div class="download-container">
+                <a href="../files/resume.pdf" download="../files/resume.pdf" class="btn-download">Download Resume</a>
+            </div>
+    </main>
+    <footer class="main-footer">
+        <p>&copy; 2025 Mukesharugo M. Alice. All Rights Reserved.</p>
+    </footer>
+
+    <script> 
+                // Smooth scrolling for navigation links
+              function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact page of Mukesharugo M. Alice - Reach out via the form, email, or phone.">
+    <title>Contact | Mukesharugo M. Alice</title>
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <!-- Main Header -->
+    <header class="main-header">
+       <nav class="navbar">
+            <div class="logo">My Portfolio</div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+           
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="linked.html">LinkedIn</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li><a href="artifacts.html">Artifacts</a></li>               
+                <li><a href="timeline.html">Timeline</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Contact Me</h2>
+                <form action="#" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <h2>My Details</h2>
+                <ul>
+                    <li><strong>Full Name:</strong> Mukesharugo M. Alice</li>
+                    <li><strong>Email:</strong> alice.mukesharugo@gmail.com</li>
+                    <li><strong>Phone:</strong> +250 785 415 066</li>
+                    <li><strong>Address:</strong> Kigali, Rwanda</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <p>&copy; 2025 Mukesharugo M. Alice. All Rights Reserved.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

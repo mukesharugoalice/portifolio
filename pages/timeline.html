@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timeline</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/timeline.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="navbar">
+        <div class="logo">My Portfolio</div>
+        <div class="hamburger" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="linked.html">LinkedIn</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="artifacts.html">Artifacts</a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="reflection.html">Reflection</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="timeline">
+      <h2 class="section-title">My Timeline</h2>
+      <div class="timeline-container">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>APRIL 28 2023</h3>
+            <p>
+              I attended trainings at ARCT RUHUKA about mental disorders &
+              Trauma
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>NOVEMBER 16 2023</h3>
+            <p>
+              I have completed my milestone at ALX IN AiCE Which helped in my
+              academic growth
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>AUGUST 28 2024</h3>
+            <p>
+              I was a master of ceremony in abacus mental graduation ceremony at
+              Excella School it boosted my public speaking
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>DECEMBER 8 2024</h3>
+            <p>
+              I was voted as a vicepresident of youth at my place KIMIRONKO and
+              I applied all leadership skills
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>JANUARY 6 2024</h3>
+            <p>
+              I was in short trainings in profemmes Rwanda of how to make
+              business plan and how women’s can participate
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="download-container">
+      <a
+        href="./pdf/My timeline.pdf"
+        download="./pdf/My timeline.pdf"
+        class="btn-download"
+        >Download Timeline</a
+      >
+    </div>
+
+    <footer class="main-footer">
+      <p>&copy; 2025 Mukesharugo M. Alice. All Rights Reserved.</p>
+    </footer>
+    <script>
+      // Smooth scrolling for navigation links
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
